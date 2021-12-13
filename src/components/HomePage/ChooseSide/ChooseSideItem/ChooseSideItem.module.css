@@ -1,0 +1,24 @@
+
+.item{
+  width: 300px;
+  height: 500px;
+  margin: var(--spacing-medium);
+  border-radius: var(--border-radius-big);
+  position: relative;
+  box-shadow: var(--box-shadow-black);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.item__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom center;
+  border-radius: var(--border-radius-big);
+}
+
+
+
+
+

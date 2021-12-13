@@ -1,0 +1,16 @@
+.btn__back{
+    background-color: transparent;
+    color: var(--color-yellow);
+    padding: var(--spacing-medium);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    text-shadow: var(--text-shadow-yellow);
+    margin-bottom: var(--spacing-medium);
+}
+.img__back{
+    width: 30px;
+    height: 30px;
+}

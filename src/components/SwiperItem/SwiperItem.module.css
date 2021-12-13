@@ -1,0 +1,18 @@
+
+
+.wrapper{
+    width: 70%;
+    margin-left: auto;
+}
+.block__img{
+    display: flex;
+    justify-content: center;
+    border-radius: var(--border-radius-big);
+    
+}
+
+.img{
+    display: block;
+    width: 90%;
+    border-radius: var(--border-radius-big);
+}
