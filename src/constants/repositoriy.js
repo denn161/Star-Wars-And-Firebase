@@ -1,0 +1,1 @@
+export const BASE_URL_GITHUB_PROJECT = 'Star-Wars-And-Firebase'

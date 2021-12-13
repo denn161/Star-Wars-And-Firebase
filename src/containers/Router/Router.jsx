@@ -16,7 +16,8 @@ import SearchPage from "../SearchPage";
 import FailPage from "../FailPage";
 import LoginPage from "../LoginPage";
 import EventsPage from "../EventsPage";
-import {auth} from '@services/firebase'
+import { auth } from '@services/firebase'
+import {BASE_URL_GITHUB_PROJECT} from '@constants/repositoriy'
 import { signInProfile, signOutProfile } from "@store/auth/actions";
 import EventsDescription from "../EventsDescription";
 
@@ -39,10 +40,9 @@ const dispatch = useDispatch()
   return unsubscribe    
   
   }, [dispatch])  
-
   
     return (
-      <BrowserRouter>        
+      <BrowserRouter basename={`/${BASE_URL_GITHUB_PROJECT}/`}>        
         <div className={styles.wrapper}>
            <Header/>         
             <Routes>
