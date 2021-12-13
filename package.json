@@ -1,6 +1,7 @@
 {
   "name": "my-star-wars",
   "version": "0.1.0",
+  "homepage":"https://denn161.github.io/Star-Wars-And-Firebase/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
